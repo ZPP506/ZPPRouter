@@ -1,0 +1,6 @@
+framework module Pods_ZPPRouter_Tests {
+  umbrella header "Pods-ZPPRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

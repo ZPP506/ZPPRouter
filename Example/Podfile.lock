@@ -1,0 +1,16 @@
+PODS:
+  - ZPPRouter (0.1.0)
+
+DEPENDENCIES:
+  - ZPPRouter (from `../`)
+
+EXTERNAL SOURCES:
+  ZPPRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPPRouter: afe4604f47fb03c9827d23c974d10994e9565254
+
+PODFILE CHECKSUM: 280a3d0078312acb6c6e9c276dc3e743bec23ecd
+
+COCOAPODS: 1.10.1
