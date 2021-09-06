@@ -81,6 +81,9 @@ let vc = ZPPRouter<HomeInput>.makeDestination()
 ```
 
 ### 推荐实践
+
+![mbb工程结构图.png](https://upload-images.jianshu.io/upload_images/11285123-3f32a36f92bf5b2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![Zppr.png](https://upload-images.jianshu.io/upload_images/11285123-02522ac78d4192b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![创建组件.png](https://upload-images.jianshu.io/upload_images/11285123-2497a738f1a3bf59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
