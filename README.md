@@ -20,25 +20,7 @@ ZPPRouterService
 
 #### 2. 面向组件协议
 ZPPRouter 通过协议获取组件
-```
-public protocol JLRouteProtocol {
-    
-    associatedtype Item
-    
-    @discardableResult
-    static func makeDestination() -> Item
-    
-    @discardableResult
-    static func makeDestination(config: ((_ config: Item)-> Void)) -> Item
 
-}
-
-```
-```
-public class ZPPRouter<T>{}
-
-extension ZPPRouter: JLRouteProtocol {}
-```
 
 ## 使用示例：
 1. 定义 HomeInput
