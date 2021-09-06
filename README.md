@@ -55,6 +55,13 @@ extension UIViewController: xxxProtocol {}
 3. 获取 UIViewController 
 ```
 let vc = ZPPRouter<xxxProtocol>.makeDestination()
+
+或者
+
+ZPPRouter<xxxProtocol>.makeDestination {
+   $0.view.backgroundColor = .red
+}
+
 ```
 
 ### 推荐实践
