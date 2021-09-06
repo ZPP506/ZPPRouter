@@ -1,13 +1,9 @@
 # ZPPRouter
 
-
-分层：
->https://www.processon.com/view/link/61349476e401fd1fb6a8e880
-
 路由设计：
 ![絕件C.png](https://upload-images.jianshu.io/upload_images/11285123-eea1e90a109092d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-注： SPM 每一个组件最终生成的都是 framwork库（可以是静态或者动态）
+注： SPM 每一个组件最终生成的都是 framwork库 意味着组件存在命名空间（优点）
 
 
 ## 目标：
