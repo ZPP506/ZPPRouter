@@ -10,9 +10,9 @@
 注： SPM 每一个组件最终生成的都是 framwork库（可以是静态或者动态）
 
 
-目标：
+## 目标：
  
-## 1. 解耦
+#### 1. 解耦
 
 ZPPRouterCenter：
  引用所有组件 
@@ -23,7 +23,7 @@ ZPPRouterService
 定义组件对外协议
 定义获取组件方法协议ZPPRouterServiceProtocol
 
-## 2. 面向协议
+#### 2. 面向协议
 ZPPRouter 通过协议获取对象
 ```
 public protocol JLRouteProtocol {
@@ -45,7 +45,7 @@ public class ZPPRouter<T>{}
 extension ZPPRouter: JLRouteProtocol {}
 ```
 
-使用示例：
+#### 使用示例：
 1. 定义 HomeInput
 ```
 public protocol HomeInput: UIViewController {
@@ -76,8 +76,6 @@ extension HomeViewController: HomeInput {}
 ```
 
 3. 获取 HomeViewController 
-> HomeViewController是private
-vc 的类型为 HomeInput
 ```
 let vc = ZPPRouter<HomeInput>.makeDestination()
 ```
