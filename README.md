@@ -23,8 +23,8 @@ ZPPRouterService
 定义组件对外协议
 定义获取组件方法协议ZPPRouterServiceProtocol
 
-#### 2. 面向协议
-ZPPRouter 通过协议获取对象
+#### 2. 面向组件协议
+ZPPRouter 通过协议获取组件
 ```
 public protocol JLRouteProtocol {
     
@@ -45,7 +45,7 @@ public class ZPPRouter<T>{}
 extension ZPPRouter: JLRouteProtocol {}
 ```
 
-#### 使用示例：
+## 使用示例：
 1. 定义 HomeInput
 ```
 public protocol HomeInput: UIViewController {
