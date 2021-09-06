@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19439C2226E5DDFD0051C8F4 /* JLRouterService in Frameworks */ = {isa = PBXBuildFile; productRef = 19439C2126E5DDFD0051C8F4 /* JLRouterService */; };
+		19439C2426E5DE220051C8F4 /* JLRouterCenter in Frameworks */ = {isa = PBXBuildFile; productRef = 19439C2326E5DE220051C8F4 /* JLRouterCenter */; };
 		54DD33212BE4A1A685F41466 /* Pods_ZPPRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BD0A1B4F5CC31E45FC492B /* Pods_ZPPRouter_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030182F53A498D5F4C238165 /* ZPPRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPPRouter.podspec; path = ../ZPPRouter.podspec; sourceTree = "<group>"; };
-		05C086D9715DD9FD55FAF503 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		030182F53A498D5F4C238165 /* ZPPRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPPRouter.podspec; path = ../ZPPRouter.podspec; sourceTree = "<group>"; };
+		05C086D9715DD9FD55FAF503 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19439C1B26E5DAA50051C8F4 /* View1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View1; sourceTree = "<group>"; };
+		19439C1D26E5DB150051C8F4 /* View2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View2; sourceTree = "<group>"; };
+		19439C1F26E5DCAC0051C8F4 /* JLRouterService */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JLRouterService; sourceTree = "<group>"; };
+		19439C2026E5DCAC0051C8F4 /* JLRouterCenter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JLRouterCenter; sourceTree = "<group>"; };
 		2280FFB82CE13B4669B302CC /* Pods-ZPPRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPPRouter_Example/Pods-ZPPRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45081E17D2B0C284108E90D3 /* Pods-ZPPRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPPRouter_Tests/Pods-ZPPRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		47BD0A1B4F5CC31E45FC492B /* Pods_ZPPRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +52,7 @@
 		8497567F5A83B057125982EB /* Pods_ZPPRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8768267CE0E22099A7E206BA /* Pods-ZPPRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPPRouter_Example/Pods-ZPPRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8FDB2567EC3B74411A43956 /* Pods-ZPPRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPPRouter_Tests/Pods-ZPPRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EA3B1E4FBA1E7BDF3B7C082A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA3B1E4FBA1E7BDF3B7C082A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC1A64F64F1B7C1EDF6FA90 /* Pods_ZPPRouter_Example.framework in Frameworks */,
+				19439C2226E5DDFD0051C8F4 /* JLRouterService in Frameworks */,
+				19439C2426E5DE220051C8F4 /* JLRouterCenter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,9 +77,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19439C1A26E5DA650051C8F4 /* Module(组件) */ = {
+			isa = PBXGroup;
+			children = (
+				19439C1D26E5DB150051C8F4 /* View2 */,
+				19439C1B26E5DAA50051C8F4 /* View1 */,
+			);
+			path = "Module(组件)";
+			sourceTree = "<group>";
+		};
+		19439C1E26E5DC7D0051C8F4 /* Router(路由实践) */ = {
+			isa = PBXGroup;
+			children = (
+				19439C2026E5DCAC0051C8F4 /* JLRouterCenter */,
+				19439C1F26E5DCAC0051C8F4 /* JLRouterService */,
+			);
+			path = "Router(路由实践)";
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				19439C1E26E5DC7D0051C8F4 /* Router(路由实践) */,
+				19439C1A26E5DA650051C8F4 /* Module(组件) */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ZPPRouter */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -147,7 +175,6 @@
 				45081E17D2B0C284108E90D3 /* Pods-ZPPRouter_Tests.debug.xcconfig */,
 				A8FDB2567EC3B74411A43956 /* Pods-ZPPRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -178,6 +205,10 @@
 			dependencies = (
 			);
 			name = ZPPRouter_Example;
+			packageProductDependencies = (
+				19439C2126E5DDFD0051C8F4 /* JLRouterService */,
+				19439C2326E5DE220051C8F4 /* JLRouterCenter */,
+			);
 			productName = ZPPRouter;
 			productReference = 607FACD01AFB9204008FA782 /* ZPPRouter_Example.app */;
 			productType = "com.apple.product-type.application";
@@ -213,10 +244,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 35SKQ5277L;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 35SKQ5277L;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -468,7 +502,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -478,8 +513,12 @@
 			baseConfigurationReference = 2280FFB82CE13B4669B302CC /* Pods-ZPPRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				INFOPLIST_FILE = ZPPRouter/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,8 +532,12 @@
 			baseConfigurationReference = 8768267CE0E22099A7E206BA /* Pods-ZPPRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				INFOPLIST_FILE = ZPPRouter/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45081E17D2B0C284108E90D3 /* Pods-ZPPRouter_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,7 +560,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -529,12 +577,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8FDB2567EC3B74411A43956 /* Pods-ZPPRouter_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 35SKQ5277L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -574,6 +627,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19439C2126E5DDFD0051C8F4 /* JLRouterService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JLRouterService;
+		};
+		19439C2326E5DE220051C8F4 /* JLRouterCenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JLRouterCenter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

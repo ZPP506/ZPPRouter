@@ -1,11 +1,11 @@
     import XCTest
-    @testable import ZPPRouter
+    @testable import View1
 
-    final class ZPPRouterTests: XCTestCase {
+    final class View1Tests: XCTestCase {
         func testExample() {
             // This is an example of a functional test case.
             // Use XCTAssert and related functions to verify your tests produce the correct
             // results.
-            XCTAssertEqual(ZPPRouter().text, "Hello, World!")
+            XCTAssertEqual(View1().text, "Hello, World!")
         }
     }
