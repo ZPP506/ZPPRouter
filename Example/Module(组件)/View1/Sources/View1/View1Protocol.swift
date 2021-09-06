@@ -7,8 +7,9 @@
 
 import UIKit
 import ZPPRouter
-import JLRouterService
-extension JLRouteProtocol where Self == JLRouter<View1Protocol> {
+import ZPPRouterService
+
+extension ZPPRouteProtocol where Self == ZPPRouter<View1Protocol> {
     
     @discardableResult
     public static func makeDestination(config: ((View1Protocol) -> Void)) -> View1Protocol {

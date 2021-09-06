@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZPPRouter_Example' do
+  pod 'ZPPRouter', :path => '../'
+
+  target 'ZPPRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
