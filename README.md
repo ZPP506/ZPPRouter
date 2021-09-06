@@ -23,9 +23,9 @@ ZPPRouter 通过协议获取组件
 
 
 ## 使用示例：
-1. 定义 HomeInput
+1. 定义 xxxProtocol
 ```
-public protocol HomeInput: UIViewController {
+public protocol xxxProtocol: UIViewController {
     
 }
 
@@ -33,28 +33,28 @@ public protocol HomeInput: UIViewController {
 
 2. 实现获取方法
 ```
-extension JLRouteProtocol where Self == ZPPRouter<HomeInput> {
+extension JLRouteProtocol where Self == ZPPRouter<xxxProtocol> {
     
     @discardableResult
-    public static func makeDestination(config: ((HomeInput) -> Void)) -> HomeInput {
+    public static func makeDestination(config: ((xxxProtocol) -> Void)) -> xxxProtocol {
         let item = makeDestination()
         config(item)
         return item
     }
     
     @discardableResult
-    public static func makeDestination() -> HomeInput {
+    public static func makeDestination() -> xxxProtocol {
         
-        return HomeViewController()
+        return UIViewController()
     }
 }
-extension HomeViewController: HomeInput {}
+extension UIViewController: xxxProtocol {}
 
 ```
 
-3. 获取 HomeViewController 
+3. 获取 UIViewController 
 ```
-let vc = ZPPRouter<HomeInput>.makeDestination()
+let vc = ZPPRouter<xxxProtocol>.makeDestination()
 ```
 
 ### 推荐实践
