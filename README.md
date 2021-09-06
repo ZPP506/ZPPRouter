@@ -11,13 +11,12 @@
 #### 1. 解耦
 
 ZPPRouterCenter：
- 引用所有组件 
-实现ZPPRouterServiceProtocol协议
+引用所有组件 
 
 
 ZPPRouterService
 定义组件对外协议
-定义获取组件方法协议ZPPRouterServiceProtocol
+定义获取组件方法
 
 #### 2. 面向组件协议
 ZPPRouter 通过协议获取组件
