@@ -107,7 +107,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				19CA8CBA26E5E2B300437B7F /* Router(网络库 此处已经下载) */,
 				19439C1E26E5DC7D0051C8F4 /* Router(路由实践) */,
 				19439C1A26E5DA650051C8F4 /* Module(组件) */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
@@ -116,6 +115,7 @@
 				607FACD11AFB9204008FA782 /* Products */,
 				BF9566F53CFD3F8138DE325C /* Pods */,
 				C8B4A38B0730F3B92A0E17F4 /* Frameworks */,
+				19CA8CBA26E5E2B300437B7F /* Router(网络库 此处已经下载) */,
 			);
 			sourceTree = "<group>";
 		};
