@@ -5,6 +5,36 @@
 
 *注*： SPM 每一个组件最终生成的都是 framwork库 意味着组件存在命名空间（优点）
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+
+## Installation
+
+AprilAlertView is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ZPPRouter'
+```
+
+### Swift Package Manager
+
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+> Xcode 11+ is required to build ZPPRouter using Swift Package Manager.
+
+To integrate ZPPRouter into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ZPP506/ZPPRouter.git", .upToNextMajor(from: "0.1.1"))
+]
+```
+
 
 ## 目标：
  
