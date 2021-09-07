@@ -5,24 +5,38 @@
 
 *注*： SPM 每一个组件最终生成的都是 framwork库 意味着组件存在命名空间（优点）
 
+## Example
 
-## 目标：
- 
-#### 1. 解耦
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-ZPPRouterCenter：
-引用所有组件 
+## Requirements
 
 
-ZPPRouterService
-定义组件对外协议
-定义获取组件方法
+## Installation
 
-#### 2. 面向组件协议
-ZPPRouter 通过协议获取组件
+AprilAlertView is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ZPPRouter'
+```
+
+### Swift Package Manager
+
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+> Xcode 11+ is required to build ZPPRouter using Swift Package Manager.
+
+To integrate ZPPRouter into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ZPP506/ZPPRouter.git", .upToNextMajor(from: "0.1.1"))
+]
+```
 
 
-## 使用示例：
+## ZPPRouter 使用示例：
 1. 定义 xxxProtocol
 ```
 public protocol xxxProtocol: UIViewController {
@@ -63,21 +77,24 @@ ZPPRouter<xxxProtocol>.makeDestination {
 }
 
 ```
+Dome: 
+https://github.com/ZPP506/ZPPRouter
 
-## 推荐实践
+# 推荐实践
+
+#### ZPPRouterCenter：
+1. 引用所有组件 
+
+#### ZPPRouterService:
+1. 定义组件对外协议
+2. 定义获取组件方法
+
 
 ![mbb工程结构图.png](https://upload-images.jianshu.io/upload_images/11285123-3f32a36f92bf5b2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![Zppr.png](https://upload-images.jianshu.io/upload_images/11285123-02522ac78d4192b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![创建组件.png](https://upload-images.jianshu.io/upload_images/11285123-2497a738f1a3bf59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![D32801F4-A7BE-4A58-AE64-3135FD99ABE9.png](https://upload-images.jianshu.io/upload_images/11285123-c9682d2d16a53d96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![F345C78F-8FCF-46A1-9C8B-17ED3987E6F1.png](https://upload-images.jianshu.io/upload_images/11285123-3ac1004484b04861.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![3D2484F9-1395-4EC8-B57E-D9024E602354.png](https://upload-images.jianshu.io/upload_images/11285123-ea2c4d3e1b7cbf44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![Crented by adnin on 2021728..png](https://upload-images.jianshu.io/upload_images/11285123-ff057450f14e7c58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![dditionalsetup afterloadingtho TOw. tvpicall.png](https://upload-images.jianshu.io/upload_images/11285123-4ed0137e003e11d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1.png](https://upload-images.jianshu.io/upload_images/11285123-2bc874d5653589f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2.png](https://upload-images.jianshu.io/upload_images/11285123-d03fcd1762896a39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![3.png](https://upload-images.jianshu.io/upload_images/11285123-a5d2ad82c99deb61.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![4.png](https://upload-images.jianshu.io/upload_images/11285123-b2d35bec74805639.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![5.png](https://upload-images.jianshu.io/upload_images/11285123-ec76236f919661e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![6.png](https://upload-images.jianshu.io/upload_images/11285123-ccb9703ed21f5dc0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![7.png](https://upload-images.jianshu.io/upload_images/11285123-282d7f1d0d31da7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
