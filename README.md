@@ -36,23 +36,7 @@ dependencies: [
 ```
 
 
-## 目标：
- 
-#### 1. 解耦
-
-ZPPRouterCenter：
-引用所有组件 
-
-
-ZPPRouterService
-定义组件对外协议
-定义获取组件方法
-
-#### 2. 面向组件协议
-ZPPRouter 通过协议获取组件
-
-
-## 使用示例：
+## ZPPRouter 使用示例：
 1. 定义 xxxProtocol
 ```
 public protocol xxxProtocol: UIViewController {
@@ -93,8 +77,18 @@ ZPPRouter<xxxProtocol>.makeDestination {
 }
 
 ```
+Dome: 
+https://github.com/ZPP506/ZPPRouter
 
-## 推荐实践
+# 推荐实践
+
+#### ZPPRouterCenter：
+1. 引用所有组件 
+
+#### ZPPRouterService:
+1. 定义组件对外协议
+2. 定义获取组件方法
+
 
 ![mbb工程结构图.png](https://upload-images.jianshu.io/upload_images/11285123-3f32a36f92bf5b2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![1.png](https://upload-images.jianshu.io/upload_images/11285123-2bc874d5653589f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
