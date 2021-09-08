@@ -1,4 +1,7 @@
 # ZPPRouter
+1. swift版本路由
+2. 面向组件协议
+3. 组件获取实例为协议类型
 
 ![絕件C.png](https://upload-images.jianshu.io/upload_images/11285123-eea1e90a109092d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
