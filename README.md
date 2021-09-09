@@ -92,7 +92,6 @@ https://github.com/ZPP506/ZPPRouter
 2. 定义获取组件方法
 
 
-![mbb工程结构图.png](https://upload-images.jianshu.io/upload_images/11285123-3f32a36f92bf5b2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![1.png](https://upload-images.jianshu.io/upload_images/11285123-2bc874d5653589f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![2.png](https://upload-images.jianshu.io/upload_images/11285123-d03fcd1762896a39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![3.png](https://upload-images.jianshu.io/upload_images/11285123-a5d2ad82c99deb61.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
