@@ -1,6 +1,6 @@
 {
   "name": "ZPPRouter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "ZPPRouter 组件化路由",
   "description": "ZPPRouter 组件化路由",
   "homepage": "https://github.com/ZPP506/ZPPRouter",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZPP506/ZPPRouter.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

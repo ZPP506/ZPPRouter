@@ -1,5 +1,5 @@
 PODS:
-  - ZPPRouter (0.1.0)
+  - ZPPRouter (0.1.1)
 
 DEPENDENCIES:
   - ZPPRouter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPPRouter: 4b203372169dbfe9ea1a2ec2f82e5b055f9ca49b
+  ZPPRouter: ce74bb4ddf4e0887431e13ac6a2e8357f5e64102
 
 PODFILE CHECKSUM: 280a3d0078312acb6c6e9c276dc3e743bec23ecd
 

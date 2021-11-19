@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZPPRouter'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ZPPRouter 组件化路由'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  ZPPRouter 组件化路由
+  ZPPRouter Router
                        DESC
 
   s.homepage         = 'https://github.com/ZPP506/ZPPRouter'
